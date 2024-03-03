@@ -23,6 +23,8 @@ export class CalcComponent {
   calc(){
   this.sum = this.num1 + this.num2;
   }
-
+  calc2(){
+    this.sumdivis = this.num3 / this.num4;
+    }
 
 }
