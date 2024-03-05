@@ -7,30 +7,32 @@ import { Component } from '@angular/core';
 })
 export class CalcComponent {
 
-  num1: number = 0;
-  num2: number = 0;
-  num3: number = 0;
-  num4: number = 0;
-  num5: number = 0;
-  num6: number = 0;
-  num7: number = 0;
-  num8: number = 0;
-  sum: number = 0;
-  sumdivis: number = 0;
-  summulti: number = 0;
-  sumsub: number = 0;
+  numero1: number = 0;
+  numero2: number = 0;
+  numero3: number = 0;
+  numero4: number = 0;
+  numero5: number = 0;
+  numero6: number = 0;
+  numero7: number = 0;
+  numero8: number = 0;
+  soma: number = 0;
+  divisao: number = 0;
+  multiplicacao: number = 0;
+  subtracao: number = 0;
 
-  calc(){
-  this.sum = this.num1 + this.num2;
+  calcularSoma() {
+    this.soma = this.numero1 + this.numero2;
   }
-  calc2(){
-    this.sumdivis = this.num3 / this.num4;
-    }
-    calc3() {
-      this.summulti = this.num5 * this.num6;
-    }
-    calc4() {
-      this.sumsub = this.num7 - this.num8;
-    }
 
+  calcularDivisao() {
+    this.divisao = this.numero3 / this.numero4;
+  }
+
+  calcularMultiplicacao() {
+    this.multiplicacao = this.numero5 * this.numero6;
+  }
+
+  calcularSubtracao() {
+    this.subtracao = this.numero7 - this.numero8;
+  }
 }
