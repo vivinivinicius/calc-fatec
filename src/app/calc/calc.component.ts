@@ -20,7 +20,7 @@ export class CalcComponent {
   multiplicacao: number = 0;
   subtracao: number = 0;
 
-  calcularSoma() {
+  calcularSomaa() {
     this.soma = this.numero1 + this.numero2;
   }
 
